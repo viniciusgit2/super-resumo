@@ -1,4 +1,4 @@
- import listaproduto from "./data/listaproduto"
+
  export default class produto {
     #id 
     #nome
@@ -10,13 +10,13 @@
 
     }
     get preco(){
-    return preco
+    return this. preco
 
 }
 get nome(){
-    return nome
+    return this. nome
 }
 get id(){
-    return id
+    return this. id
 }
 }
